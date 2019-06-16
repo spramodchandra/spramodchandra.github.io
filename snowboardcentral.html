@@ -1,0 +1,294 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <title>Snowboard Central</title>
+        <link href='https://fonts.googleapis.com/css?family=Nunito:bold,Regular' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:bold,Regular' rel='stylesheet'>
+        <style>
+            @font-face 
+            {
+                font-family: futura-pt;
+                src: URL('futura-pt.otf') format('truetype');
+            }
+            @font-face 
+            {
+                font-family: proxima-nova;
+                src: URL('proxima-nova.ttf') format('truetype');
+            }
+            a:link, a:visited, a:hover, a:active 
+            {
+                color:white;
+                text-align: center; 
+                text-decoration: none;
+                font-family: 
+            }  
+            body
+            {
+                width:1195px;
+                margin: auto;
+                font-family:proxima-nova,Montserrat;
+                font-size:15px;
+                font-style: normal;
+                color:white;
+            }
+            .image1
+            {
+                height:1000px;
+                background-attachment: fixed;
+                background-image: url("http://csci571.com/hw/hw3/images/snow1.jpg");
+                background-color: rgba(0, 0, 0, 0.15);
+                background-blend-mode:darken;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: 1600px 1100px;
+                overflow: hidden;
+            }
+            .image6
+            {
+                height:900px;
+                background-attachment: fixed;
+                background-image: url("http://csci571.com/hw/hw3/images/snow6.jpg");
+                background-color: rgba(0, 0, 0, 0.15);
+                background-blend-mode:darken;
+                background-position: top;
+                background-repeat: no-repeat;
+                background-size: 2000px 1100px;
+                overflow: hidden;
+            }
+            #header 
+            {
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: 25px;
+                padding-left: 75px;
+                padding-right: 75px;
+                height: 55px;
+                overflow: no-content;
+            }
+            div#header div 
+            {
+                display: inline-block;
+                padding: 1% 0;
+                margin: 0 2%;
+                text-align: center;
+                font-size: 2em;
+            }
+            #header-left-style
+            {
+                float:left;
+                font-family: futura-pt, Nunito;
+                font-weight: 800;
+                font-style: normal;
+                font-size: 36px;
+                line-height: 1.5em;
+                letter-spacing: .17em;
+                padding: 5px 25px;
+            }
+            #header-right-style
+            {
+                float:right;
+                font-family: futura-pt, Nunito;
+                font-weight: bold;
+                font-style: normal;
+                font-size: 13px;
+                letter-spacing: .2em;
+                margin-top:25px;
+                padding-right: 25px;
+            }
+            a#margin
+            {
+                margin-left: 10px;
+                margin-right: 10px;
+                padding-top: 8px;
+                padding-bottom: 8px;
+            }
+            #center
+            {
+                padding-top: 150px;
+                padding-bottom: 180px;
+                margin-top:-90px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            #center1
+            {
+                padding-left: 15px;
+                padding-right: 15px;
+                padding-top: 40px;
+                padding-bottom: 15px;
+                margin-left: auto;
+                margin-right: auto;               
+            }
+            #bendthemind
+            {
+                text-align:center;
+                font-weight: 600;
+                font-family: futura-pt;
+                font-size: 100px;
+                padding-left: 120px;
+                padding-right: 120px;
+                margin-left: 150px;
+                margin-right: 170px;
+                line-height: 1.15em;
+            }
+            #james
+            {
+                text-align:center;
+                font-weight: 500;
+                font-size: 24px;
+                letter-spacing: .01em;
+                line-height: 1.6em;
+                padding-left: 120px;
+                padding-right: 120px;
+                margin-left: 150px;
+                margin-right: 150px;  
+                margin-top:-25px;
+            }
+            #learnmorediv
+            {
+                text-align:center;
+                color:Black; 
+                font-size: 15px;
+                line-height: 1.7em;
+                font-weight: 400;
+                padding-left: 120px;
+                padding-right: 120px;
+                margin-top:20px;
+                margin-left: 150px;
+                margin-right: 150px;
+            }
+            #learnmore
+            {
+                color:Black;  
+                background-color: white;
+                font-family: futura-pt, Nunito;
+                padding-left: 34px;
+                padding-right: 34px; 
+                padding-bottom: 21px;
+                padding-top: 21px;
+            }
+            #center2
+            {
+                padding-top: 90px;
+                padding-bottom: 90px;
+                padding-left: 60px;
+                padding-right: 60px;
+                margin: auto; 
+            }
+            #images
+            {
+                padding-bottom: 15px;
+                padding-left: 15px;
+                padding-right: 15px;
+                height: 1050px;
+            }
+            #text
+            {
+                color:Black;  
+                font-size: 15px;
+                line-height: 1.8em;
+                font-weight: 400;
+                padding-left: 260px;
+                padding-right: 260px;
+                padding-top: 50px;
+            }
+            
+            #center3
+            {
+                padding-top: 369.25px;
+                padding-bottom: 369.25px;
+                padding-left: 200px;
+                padding-right: 200px;
+                margin: auto; 
+            }
+            #lorem
+            {
+                text-align:center;
+                font-weight: 500;
+                font-size: 25px;
+                letter-spacing: .01em;
+                line-height: 1.6em;
+                margin-left: 60px;
+                margin-right: 60px;                
+            }
+            .imagecrop
+            {
+                display: table-cell;
+                max-width: 490px;
+                max-height: 450px; 
+                overflow: hidden;
+            }
+            .img 
+            {
+                margin-left: -135px;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="image1">
+                <div id="header" >
+                    <a href="" id="header-left-style">SNOWBOARD CENTRAL</a>
+                    <nav id="header-right-style">
+                        <a id="margin" href="">HOME</a>  
+                        <a id="margin" href="">ABOUT</a> 
+                        <a id="margin" href="">GALLERY</a> 
+                        <a id="margin" href="">JOURNAL</a>
+                        <a id="margin" href="">CONTACT</a>
+                    </nav>
+                </div>
+                <div id="center">
+                    <div id="center1">
+                        <div>
+                            <h1 id="bendthemind" >Bend the Mind</h1>
+                            <h2 id="james">James Jantz is a snowboarder living in Jackson Hole, WY and riding around the world. Lorem ipsum dolor sit amet consectetuer adipiscing elit nam nibh. Nunc varius facilisis eros sed erat in in velit quis arcu ornare laoreet. </h2>
+                        </div>
+                    </div>
+                    <div id="learnmorediv">
+                        <div >
+                            <a id="learnmore" href=""> LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div style="background-color:white; height: 1500px">
+                <div id="center2">
+                    <div>
+                        <div id="images">
+                            <table cellspacing="20">
+	                           <tr>
+                                   <td class="imagecrop"><img class="img" src="http://csci571.com/hw/hw3/images/snow2.jpg"></td>
+		                          <td class="imagecrop"><img class="img" src="http://csci571.com/hw/hw3/images/snow3.jpg"></td>
+	                           </tr>
+	                           <tr>
+		                          <td class="imagecrop"><img class="img" src="http://csci571.com/hw/hw3/images/snow4.jpg"></td>
+		                          <td class="imagecrop"><img class="img" src="http://csci571.com/hw/hw3/images/snow5.jpg"></td>
+	                           </tr>
+                            </table>
+                        </div>
+                        <div id="text">
+                            <p>Lorem ipsum dolor sit amet consectetuer adipicing elit nam nibh. Nunc varius facilisis eros sed erat in in veilt quis arcu ornane laoreet. Curabitur adipiscing luctus massa. Integer ut purus ac augue commodo. Nunc nec mi eu justo tempor consectetuer. Etiam viate nisi. In dignissim lacus ut ante.</p>
+                            <p>Photography courtesy of Carl Sutter.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="image6">
+                <div id="center3">
+                    <div>
+                        <h2 id="lorem">Lorem ipsum dolor sit amet consectetuer adipiscing elit nam nibh. Nunc varius facilisis eros sed erat in in velit quis arcu ornare laoreet.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div style="background-color:white; height: 100px"></div>
+        </section>
+        
+    </body>
+</html>
